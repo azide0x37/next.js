@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'vercel'
     steps:
-      - uses: actions/stale@v4
+      - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
         id: stale
         name: 'Close stale issues with no reproduction'
         with:
